@@ -1,0 +1,79 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+.resume {
+   
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    background: rgb(248, 248, 248);
+    margin: 50px auto;
+    height: 1100px;
+    width: 850px;
+    padding: 50px;
+    position: relative;
+}
+
+.pic {
+
+    margin-left: 40px;
+    margin-bottom: 20px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+.left {
+    position: absolute;
+    left: 15px;
+    height: 1100px;
+    width: 250px;
+    padding: 10px;
+}
+
+.right {
+    position: absolute;
+    right: 0px;
+    height: 1100px;
+    width: 600px;
+    padding: 10px;
+}
+
+h3 {
+    font-style: inherit;
+    color: #a96c11;
+}
+
+a {
+    font-style: inherit;
+    color: #a96c11;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.dot {
+    height: 12px;
+    width: 12px;
+    background-color: rgba(187, 187, 187, 0.6);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot1 {
+    height: 12px;
+    width: 12px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#cell1,
+#cell2 {
+    margin: 20px auto;
+}
